@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: simple-docker-compose-support-app
+  jpa:
+    hibernate:
+      ddl-auto: update   # <-- auto create/update tables
+      show-sql: true        # log SQL statements
